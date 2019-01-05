@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abcdef"
+    tools:context="map.google.show">
+    <Button
+        android:id="@+id/bn1"
+        android:text="Back"
+        android:textSize="15dp"
+        android:background="@color/light"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <AutoCompleteTextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Subject_name"
+        android:textColor="@color/red"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/bn1" />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:layout_marginTop="52dp"
+        android:layout_toStartOf="@+id/a1"
+        android:text="Present"
+
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="113dp"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/t1"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="65dp"
+        android:text="Absent"
+        android:textColor="@color/blue"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toStartOf="@+id/t2"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="78dp"
+        android:text="Percentage"
+        android:textColor="@color/blue"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/textView5"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="show"
+
+
+        android:layout_below="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+
+</RelativeLayout>

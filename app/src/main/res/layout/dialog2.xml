@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose any one..."
+        android:textSize="20dp"
+        android:textColor="@color/blue"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/rn1"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:text="Present"
+            android:textColor="@color/red"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rn2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:text="Absent"
+            android:textColor="@color/red"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rn3"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text="Cancelled"
+            android:textColor="@color/red"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+
+</LinearLayout>

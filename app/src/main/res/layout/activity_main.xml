@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abcdef"
+    tools:context="map.google.newattendance.MainActivity">
+
+
+    <Button
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="15dp"
+        android:background="@color/light"
+        android:textColor="@color/red"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bn2" />
+
+    <Button
+        android:id="@+id/bn2"
+        android:text="Exit"
+        android:textSize="15dp"
+        android:background="@color/or"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bn1"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/bn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light"
+        android:text="show"
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bn4" />
+
+    <Button
+        android:id="@+id/bn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del."
+        android:background="@color/re"
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bn1" />
+</RelativeLayout>
